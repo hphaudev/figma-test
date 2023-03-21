@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+.app {
+  height: 502px;
+  width: 727px;
+  background-color: #ffffff;
+  margin: 200px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.heading {
+  padding-top: 61px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+}
+.logo {
+  padding-left: 60px;
+  width: 41px;
+  height: 15px;
+  font-size: 16;
+}
+
+.nav ul,
+li {
+  list-style: none;
+  display: inline-block;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #151b32;
+  padding: 0 5px;
+}
+.input {
+  width: 189px;
+  height: 35px;
+  border: 1px solid #bfc8e6;
+  border-radius: 4px;
+  padding: 0 0 0 30px;
+}
+i {
+  position: relative;
+  font-weight: 50;
+  left: -185px;
+}
+
+.nav button {
+  background-color: #849fff;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+}
+.content-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-item img {
+  width: 58px;
+  height: 62px;
+}
+.content-item h2 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 23px;
+}
+.content .conten2 {
+  padding: 15px;
+}
